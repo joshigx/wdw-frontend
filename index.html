@@ -257,7 +257,7 @@
             const protocol = window.location.protocol === 'https:' ? 'wss://' : 'ws://';
           
             //const wsUrl = `${protocol}${window.location.hostname}:8080`;
-           const wsUrl = `${protocol}${window.location.hostname}/ws`;
+           const wsUrl = `${protocol}wdw-backend.brightfuture.deno.net/`;
             ws = new WebSocket(wsUrl);
             
             ws.onopen = () => {
